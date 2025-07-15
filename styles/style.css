@@ -378,7 +378,46 @@ main{
     justify-content: space-around;
 }
 
+/* chef section style  */
 
+.chef-section{
+    margin: 150px auto;
+}
+
+.chef-heading{
+    font-size: 48px;
+    text-align: center;
+}
+
+.chef-section-heading-border{
+    width: 200px;
+    height: 5px;
+    border-radius: 9999px;
+    background-color: rgb(224, 0, 0);
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.chef-profile-section{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.chef-image{
+    margin-top: 50px;
+}
+
+.chef-image img{
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.chef-name{
+    font-size: 18px;
+    margin-top: 10px;
+}
 
 
 
