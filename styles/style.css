@@ -69,24 +69,25 @@ body {
     margin-bottom: 15px;
 }
 
-.red{
+.red {
     color: #e3481e;
 }
 
-.yellow{
+.yellow {
     color: rgb(240, 156, 0);
 }
 
-.green{
+.green {
     color: rgb(0, 63, 0);
 }
+
 .banner-description {
     font-size: 24px;
     margin-bottom: 80px;
     color: rgba(0, 0, 0, 0.616);
 }
 
-.banner-image{
+.banner-image {
     background-image: url(../images/banner-image-bg.png);
     background-repeat: no-repeat;
     padding: 80px;
@@ -96,13 +97,13 @@ body {
     width: 100%;
 }
 
-.btn-section{
+.btn-section {
     display: flex;
     align-items: center;
 }
 
 .btn {
-    background-color:#e3481e ;
+    background-color: #e3481e;
     color: white;
     border: none;
     font-size: 16px;
@@ -116,4 +117,133 @@ body {
 
 .btn-section i {
     font-size: 40px;
+}
+
+/* salad card style  */
+
+.salad-item-card-section {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    background-color: white;
+    border-radius: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+
+.title{
+    text-align: center;
+}
+
+.card-bg1 {
+    background-color: #e27776;
+    width: 200px;
+    padding: 30px;
+    padding-top: 110px;
+    color: white;
+    border-radius: 20px;
+}
+.card-bg2 {
+background-color: #f7802a;
+    width: 200px;
+    padding: 30px;
+    padding-top: 110px;
+    color: white;
+    border-radius: 20px;
+}
+.card-bg3 {
+background-color: #6ad145;
+    width: 200px;
+    padding: 30px;
+    padding-top: 110px;
+    color: white;
+    border-radius: 20px;
+}
+.card-bg4 {
+background-color: #6f6de7;
+    width: 200px;
+    padding: 30px;
+    padding-top: 110px;
+    color: white;
+    border-radius: 20px;
+}
+
+
+.price-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.order-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order-btn {
+    background-color: white;
+    border: none;
+    border-radius: 9999px;
+    padding: 10px 15px;
+    font-weight: 500;
+}
+
+.order-section p {
+    font-size: 12px;
+}
+
+
+
+.salad-image1 {
+    width: 130px;
+    height: 130px;
+    background-image: url(../images/salad-item1.png);
+    background-size: cover;
+    border: 3px solid #e27776;
+    background-color: #e27776;
+    border-radius: 9999px;
+    position: relative;
+    top: 90px;
+    left:60px;
+}
+
+.salad-image2 {
+    width: 130px;
+    height: 130px;
+    background-image: url(../images/salad-item2.png);
+    background-size: cover;
+    border: 3px solid #f7802a;
+    background-color: #f7802a;
+    border-radius: 9999px;
+    position: relative;
+    top: 90px;
+    left:60px;
+}
+
+.salad-image3 {
+    width: 130px;
+    height: 130px;
+    background-image: url(../images/salad-item3.png);
+    background-size: cover;
+    border: 3px solid #6ad145;
+    background-color: #6ad145;
+    border-radius: 9999px;
+    position: relative;
+    top: 90px;
+    left:60px;
+}
+
+.salad-image4 {
+    width: 130px;
+    height: 130px;
+    background-image: url(../images/salad-item4.png);
+    background-size: cover;
+    border: 3px solid #6f6de7;
+    background-color: #6f6de7;
+    border-radius: 9999px;
+    position: relative;
+    top: 90px;
+    left:60px;
 }
