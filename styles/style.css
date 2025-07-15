@@ -340,10 +340,44 @@ main{
     margin-bottom: 35px;
 }
 
+.section-description{
+    margin-bottom: 25px;
+}
+
 .pose-image img{
     width: 100%;
     border-radius: 50px;
 }
+
+
+/* top food section  */
+
+.top-food-section{
+    margin: 200px 0 80px 0;
+}
+
+.top-food-heading{
+    font-size: 38px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.top-food-items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.top-food-item img {
+    width: 200px;
+}
+
+.food-item-names{
+    display: flex;
+    justify-content: space-around;
+}
+
 
 
 
