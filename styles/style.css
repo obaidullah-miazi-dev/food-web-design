@@ -369,14 +369,22 @@ main{
     margin-bottom: 20px;
 }
 
-.top-food-item img {
+.top-food-item-image {
     width: 200px;
+    height: 200px;
 }
 
-.food-item-names{
-    display: flex;
-    justify-content: space-around;
+.top-food-item-image img{
+    width: 100%;
+    height: 100%;
 }
+
+.top-food-name{
+    text-align: center;
+    margin-top: 45px;
+}
+
+
 
 /* chef section style  */
 
@@ -418,6 +426,49 @@ main{
     font-size: 18px;
     margin-top: 10px;
 }
+
+/* promo section style  */
+
+.promo-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+}
+
+.promo-section-content{
+    width: 60%;
+}
+
+.promo-title{
+    font-size: 48px;
+    color: #f7802a;
+    margin-bottom: 25px;
+}
+
+.promo-description{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.app-store-image{
+    width: 250px;
+}
+
+.app-store-image img{
+    width: 100%;
+}
+
+.promo-section-image{
+    width: 40%;
+}
+
+.promo-section-image img{
+    width: 100%;
+}
+
+
 
 
 
