@@ -9,11 +9,11 @@ body {
     box-sizing: border-box;
     background-color: #fff2e3;
     font-family: inter;
-    max-width: 90%;
+    max-width: 100%;
     margin: 0 auto;
 }
 
-main{
+main,header{
     max-width: 90%;
     margin: 0 auto;
 }
@@ -67,6 +67,10 @@ main{
     color: rgba(0, 0, 0, 0.637);
     font-weight: 600;
     margin: 0 30px;
+}
+
+.nav-items a:hover{
+    color: black;
     transition: 0.5s;
 }
 
@@ -78,6 +82,10 @@ main{
     cursor: pointer;
 }
 
+.btn-icons i:hover{
+    transform: scale(1.5);
+}
+
 .sign-in-btn {
     background-color: white;
     border: none;
@@ -87,8 +95,13 @@ main{
     border-radius: 9999px;
     margin-left: 10px;
     box-shadow: 5px 15px 50px 10px #eed7bb;
-    transition: 0.5s;
+    transition: 0.8s;
     cursor: pointer;
+}
+
+.sign-in-btn:hover{
+    background-color: black;
+    color: white;
 }
 
 /* banner section  */
@@ -142,8 +155,17 @@ main{
     cursor: pointer;
 }
 
+.btn:hover{
+    background-color: rgb(240, 156, 0);
+}
+
 .btn-section i {
     font-size: 40px;
+    transition: 1s;
+}
+
+.btn-section i:hover{
+    transform: rotate(125deg);
 }
 
 /* salad card style  */
@@ -153,7 +175,7 @@ main{
     flex-wrap: wrap;
     gap: 60px;
     justify-content: center;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     border-radius: 50px;
     margin-bottom: 50px;
     padding-bottom: 100px;
@@ -250,6 +272,12 @@ main{
     padding: 10px 15px;
     font-weight: 500;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.507);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.order-btn:hover{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.507);
 }
 
 .order-section p {
@@ -276,7 +304,7 @@ main{
     border-bottom: 3px solid  #e3481e;
     border-radius: 3px;
     display: inline-block;
-    
+    text-shadow: 2px 2px 35px #f77f2aa9;
 }
 
 .category-details{
@@ -467,6 +495,44 @@ main{
 .promo-section-image img{
     width: 100%;
 }
+
+/* footer section  */
+
+footer{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.486);
+}
+
+.footer-section{
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 55px;
+    padding: 60px 0;
+}
+
+.footer-description{
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.social-icon-section i{
+    font-size: 24px;
+    margin-right: 10px;
+
+}
+
+.heading{
+    margin-bottom: 20px;
+}
+
+
+ img{
+    width: 20%;
+}
+
 
 
 
