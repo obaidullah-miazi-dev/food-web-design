@@ -427,7 +427,7 @@ main{
     margin-top: 10px;
 }
 
-/* promo section style  */
+/* promo section styles  */
 
 .promo-section{
     display: flex;
@@ -453,7 +453,7 @@ main{
 }
 
 .app-store-image{
-    width: 250px;
+    width: 350px;
 }
 
 .app-store-image img{
