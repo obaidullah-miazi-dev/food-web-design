@@ -2,23 +2,24 @@
 
     /* nav section  */
 
-    .nav-items{
+    .nav-items {
         display: none;
     }
 
-    .banner-section{
+    .banner-section {
         flex-direction: column;
         text-align: center;
     }
 
-    .banner-heading{
+    .banner-heading {
         font-size: 40px;
     }
-    .btn-section{
-        justify-content: center; 
+
+    .btn-section {
+        justify-content: center;
     }
 
-    .banner-description{
+    .banner-description {
         margin-bottom: 40px;
     }
 
@@ -29,10 +30,89 @@
 
     /* salad item card section */
 
-    .salad-item-card-section{
+    .salad-item-card-section {
         gap: 5px;
     }
 
+    /* categories section */
+
+    .categories-section {
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+        margin-bottom: 0;
+    }
+
+    .categories-section>img {
+        width: 100%;
+    }
+
+    .category-head {
+        display: flex;
+        font-size: 38px;
+        margin: 0;
+        margin-bottom: 45px;
+    }
+
+    /* free-delivery-section */
+
+    .free-delivery-section {
+        flex-direction: column;
+        gap: 80px;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .border {
+        width: 100%;
+    }
+
+    .section-description br,
+    .sub-heading br {
+        display: none;
+    }
+
+    /* top food item section  */
+
+    .top-food-items {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+
+    /* promo section  */
+
+    .promo-title {
+        font-size: 38px;
+    }
+
+    .promo-description {
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 25px;
+    }
+
+    .app-store-image {
+        width: 220px;
+    }
+
+    /* footer section  */
+    .footer-section{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-section img {
+        width: 100%;
+    }
+
+    .about-us-section{
+        padding-top: 100px;
+    }
+
+    .footer-description{
+        font-size: 16px;
+    }
 
 
 
@@ -46,24 +126,24 @@
 
 
     @keyframes appear {
-    from {
-        opacity: 0;
-        scale: 0.5;
-        transform: translateX(-100px);
-        /* clip-path: inset(100% 100% 0 0); */
+        from {
+            opacity: 0;
+            scale: 0.5;
+            transform: translateX(-100px);
+            /* clip-path: inset(100% 100% 0 0); */
+        }
+
+        to {
+            opacity: 1;
+            scale: 1;
+            transform: translateX(0px);
+            /* clip-path: inset(0 0 0 0); */
+        }
     }
 
-    to {
-        opacity: 1;
-        scale: 1;
-        transform: translateX(0px);
-        /* clip-path: inset(0 0 0 0); */
+    .appear {
+        animation: appear linear;
+        animation-timeline: view();
+        animation-range: entry 0% cover 25%;
     }
-}
-
-.appear{
-    animation: appear linear;
-    animation-timeline: view();
-    animation-range: entry 0% cover 25%;
-}
 }
