@@ -59,6 +59,7 @@ main,header{
 
 .logo img {
     width: 150px;
+    margin-top: 25px;
 }
 
 .nav-items a {
@@ -182,6 +183,15 @@ main,header{
     margin-top: 100px;
 }
 
+.salad-card{
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.salad-card:hover{
+    transform: scale(1.15);
+}
+
 
 .card-bg {
     width: 200px;
@@ -192,8 +202,22 @@ main,header{
     border-radius: 20px;
 }
 
+.salad-image{
+    width: 150px;
+}
 
-.salad-image1 {
+.salad-image img{
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 999px;
+    border: 3px solid white;
+    margin: 0;
+    position: relative;
+    top: 80px;
+    left: 50px;
+}
+
+/* .salad-image1 {
     width: 130px;
     height: 130px;
     background-image: url(../images/salad-item1.png);
@@ -204,9 +228,9 @@ main,header{
     position: relative;
     top: 90px;
     left:60px;
-}
+} */
 
-.salad-image2 {
+/* .salad-image2 {
     width: 130px;
     height: 130px;
     background-image: url(../images/salad-item2.png);
@@ -217,9 +241,9 @@ main,header{
     position: relative;
     top: 90px;
     left:60px;
-}
+} */
 
-.salad-image3 {
+/* .salad-image3 {
     width: 130px;
     height: 130px;
     background-image: url(../images/salad-item3.png);
@@ -230,9 +254,9 @@ main,header{
     position: relative;
     top: 90px;
     left:60px;
-}
+} */
 
-.salad-image4 {
+/* .salad-image4 {
     width: 130px;
     height: 130px;
     background-image: url(../images/salad-item4.png);
@@ -243,7 +267,7 @@ main,header{
     position: relative;
     top: 90px;
     left:60px;
-}
+} */
 
 .salad-description{
     margin-top: 10px;
@@ -434,6 +458,15 @@ main,header{
     margin-top: 15px;
 }
 
+.chef-profile{
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.chef-profile:hover{
+    transform: scale(1.25);
+}
+
 .chef-profile-section{
     display: flex;
     justify-content: space-evenly;
@@ -531,14 +564,6 @@ footer{
 
  img{
     width: 20%;
+    margin-bottom: 15px;
 }
-
-
-
-
-
-
-
-
-
 
