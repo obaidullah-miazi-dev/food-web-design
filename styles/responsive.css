@@ -137,3 +137,70 @@
         animation-range: entry 0% cover 25%;
     }
 }
+
+
+/* responsive style for small mobile device  */
+
+@media screen and (max-width:320px) {
+
+    .top-food-item-image {
+    width: 100px;
+    height: 100px;
+}
+
+.btn-icons i{
+    display: none;
+}
+
+.section-content .btn{
+    margin-right: 0;
+}
+
+.promo-title {
+        font-size: 20px;
+        margin-bottom: 18px;
+    }
+
+        .promo-description {
+        font-size: 10px;
+        font-weight: 500;
+        margin-bottom: 25px;
+    }
+
+        .app-store-image {
+        width: 160px;
+    }
+
+.top-food-name {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+    .top-food-items {
+        row-gap: 25px;
+    }
+
+    .footer-section {
+        gap: 15px;
+        column-gap: 25px;
+    }
+
+    .heading {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.detail{
+    font-size: 13px;
+}
+
+    
+    .footer-description {
+        font-size: 12px;
+    }
+
+        .about-us-section {
+        padding-top: 35px;
+    }
+    
+}
