@@ -162,6 +162,10 @@
         width: 160px;
     }
 
+    .section-content .btn {
+        margin-right: 0px;
+    }
+
 
 }
 
