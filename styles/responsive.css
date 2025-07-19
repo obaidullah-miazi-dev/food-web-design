@@ -138,10 +138,50 @@
     }
 }
 
+/* responsive style for medium mobile device  */
+
+@media screen and (max-width:420px) {
+
+        .top-food-item-image {
+    width: 150px;
+    height: 150px;
+}
+
+.promo-title {
+        font-size: 24px;
+        margin-bottom: 18px;
+    }
+
+        .promo-description {
+        font-size: 10px;
+        font-weight: 500;
+        margin-bottom: 25px;
+    }
+
+        .app-store-image {
+        width: 160px;
+    }
+
+
+}
+
 
 /* responsive style for small mobile device  */
 
 @media screen and (max-width:320px) {
+
+        .banner-heading {
+        font-size: 30px;
+    }
+
+        .banner-description {
+        margin-bottom: 30px;
+        font-size: 18px;
+    }
+
+    .banner-image img {
+    width: 140px;
+}
 
     .top-food-item-image {
     width: 100px;
