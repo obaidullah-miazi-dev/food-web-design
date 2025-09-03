@@ -97,7 +97,7 @@
     }
 
     /* footer section  */
-    .footer-section{
+    .footer-section {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
@@ -106,16 +106,16 @@
         width: 100%;
     }
 
-    .about-us-section{
+    .about-us-section {
         padding-top: 100px;
     }
 
-    .footer-description{
+    .footer-description {
         font-size: 16px;
     }
 
 
-    @keyframes appear  {
+    @keyframes appear {
         from {
             opacity: 0;
             scale: 0.5;
@@ -142,23 +142,23 @@
 
 @media screen and (max-width:420px) {
 
-        .top-food-item-image {
-    width: 150px;
-    height: 150px;
-}
+    .top-food-item-image {
+        width: 150px;
+        height: 150px;
+    }
 
-.promo-title {
+    .promo-title {
         font-size: 24px;
         margin-bottom: 18px;
     }
 
-        .promo-description {
+    .promo-description {
         font-size: 10px;
         font-weight: 500;
         margin-bottom: 25px;
     }
 
-        .app-store-image {
+    .app-store-image {
         width: 160px;
     }
 
@@ -172,53 +172,59 @@
 
 /* responsive style for small mobile device  */
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:390px) {
 
-        .banner-heading {
+
+    .logo img{
+        width: 120px;
+        margin-top:40px;
+    }
+
+    .banner-heading {
         font-size: 30px;
     }
 
-        .banner-description {
+    .banner-description {
         margin-bottom: 30px;
         font-size: 18px;
     }
 
     .banner-image img {
-    width: 140px;
-}
+        width: 140px;
+    }
 
     .top-food-item-image {
-    width: 100px;
-    height: 100px;
-}
+        width: 100px;
+        height: 100px;
+    }
 
-.btn-icons i{
-    display: none;
-}
+    .btn-icons i {
+        display: none;
+    }
 
-.section-content .btn{
-    margin-right: 0;
-}
+    .section-content .btn {
+        margin-right: 0;
+    }
 
-.promo-title {
+    .promo-title {
         font-size: 20px;
         margin-bottom: 18px;
     }
 
-        .promo-description {
+    .promo-description {
         font-size: 10px;
         font-weight: 500;
         margin-bottom: 25px;
     }
 
-        .app-store-image {
+    .app-store-image {
         width: 160px;
     }
 
-.top-food-name {
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
+    .top-food-name {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
 
     .top-food-items {
         row-gap: 25px;
@@ -230,21 +236,21 @@
     }
 
     .heading {
-    font-size: 14px;
-    margin-bottom: 10px;
-}
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
 
-.detail{
-    font-size: 13px;
-}
+    .detail {
+        font-size: 13px;
+    }
 
-    
+
     .footer-description {
         font-size: 12px;
     }
 
-        .about-us-section {
+    .about-us-section {
         padding-top: 35px;
     }
-    
+
 }
